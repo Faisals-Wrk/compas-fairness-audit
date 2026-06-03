@@ -1,0 +1,5 @@
+# .gitignore
+data/              # the downloaded CSV — no need to track it, re-downloads automatically
+__pycache__/
+*.pyc
+.env

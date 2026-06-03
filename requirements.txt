@@ -1,0 +1,22 @@
+# =============================================================================
+# requirements.txt
+# Project: Equally Accurate, Unequally Fair
+#          COMPAS Rashomon Fairness Audit
+# =============================================================================
+# Install everything with:   pip install -r requirements.txt
+#
+# What each package does:
+#   numpy        — fast numerical arrays, used everywhere
+#   pandas       — DataFrames: loading CSV, filtering rows, grouping data
+#   scikit-learn — all our ML models (Decision Tree, Logistic Regression, etc.)
+#   scipy        — statistical functions used in the analysis layer
+#   streamlit    — the web app framework (run: streamlit run app.py)
+#   plotly       — interactive charts (scatter plots, bar charts, heatmaps)
+# =============================================================================
+
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.2
+scipy>=1.10
+streamlit>=1.30
+plotly>=5.18
